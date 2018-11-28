@@ -1,0 +1,30 @@
+Group 	Description						Spearman	Pearson
+1		All sgRNAs						0.378		0.456
+2		 All except 
+	manual exclusions					0.380		0.460
+
+3		All except ME and 
+	End of Chromosome sgRNAs			0.399		0.477
+
+4	All except ME, EOC, and 
+	those containing polyT motif 			0.369		0.44
+
+5	All except ME, EOC, polyT, and 
+	lowest 500 abundance sgRNAs in
+	 untransformed library				0.368		0.44
+
+6	All except ME, EOC, polyT, and 
+		lowest 1000						0.361		0.437
+
+7	All except ME, EOC, polyT, and 
+		lowest 2000						0.366		0.444
+
+8	All except ME, EOC, polyT, and 
+		lowest 4000						0.363		0.439
+
+9	All except ME, EOC, polyT, and 
+		lowest 8000						0.356		0.431
+
+10	All except ME, EOC, polyT, and 
+		lowest 16000					0.338		0.403
+	
