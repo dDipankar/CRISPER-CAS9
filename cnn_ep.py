@@ -93,9 +93,9 @@ if __name__ == '__main__':
         conv_1 = Conv1D(activation="relu", padding="valid", strides=1, filters=20, kernel_size=5, kernel_initializer='glorot_uniform',kernel_regularizer = l2(0.00001))(SEQ)
         bat_norm1 = BatchNormalization()(conv_1)
         pool = MaxPooling1D(pool_size=(2))(bat_norm1)
-        conv_2 = Conv1D(activation="relu", padding="valid", strides=1, filters=40, kernel_size=7, kernel_initializer='glorot_uniform',kernel_regularizer = l2(0.00001))(pool)
+        conv_2 = Conv1D(activation="relu", padding="valid", strides=1, filters=40, kernel_size=8, kernel_initializer='glorot_uniform',kernel_regularizer = l2(0.00001))(pool)
         bat_norm2 = BatchNormalization()(conv_2)
-        pool_1 = MaxPooling1D(pool_size=(3))(bat_norm2)
+        pool_1 = AveragePooling1D(pool_size=(2))(bat_norm2)
         flatten = Flatten()(pool_1)
         dropout_1 = Dropout(0.5)(flatten)
         dense_1 = Dense(80, activation='relu', kernel_initializer='glorot_uniform')(dropout_1)
@@ -104,6 +104,7 @@ if __name__ == '__main__':
         dropout_3 = Dropout(0.3)(dense_2)
         dense_3 = Dense(units=40,  activation="relu",kernel_initializer='glorot_uniform')(dropout_3)
         
+        #model for epigenetics feature
         NU = Input(shape=(1,))
         dense1_nu = Dense(units=40,  activation="relu",kernel_initializer='glorot_uniform')(NU)
         mult = Multiply()([dense_3, dense1_nu])
