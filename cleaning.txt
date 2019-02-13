@@ -1,8 +1,8 @@
-Cleaning Method					Total Sample 		Sample After Cleaning		   Pos: Neg
-NeighbourhoodCleaningRule			44664				26669					4843 : 21826
-EditedNearestNeighbours				44664				24968					3142 : 21826
-AllKNN								44664				33615					11789 : 21826
-InstanceHardnessThreshold			44664				44409					22583 : 21826
-NearMiss						        44664				43652					21826 : 21826
-TomekLink 							44664				39725					17899 : 21826
-OneSidedSelection					44664				39724 					17898 : 21826
+Cleaning Method					      Total Sample 		    Sample After Cleaning		    Pos: Neg
+NeighbourhoodCleaningRule			    44664				              26669					4843 : 21826
+EditedNearestNeighbours				    44664				              24968					3142 : 21826
+AllKNN								            44664				              33615					11789 : 21826
+InstanceHardnessThreshold			    44664				              44409					22583 : 21826
+NearMiss						              44664				              43652					21826 : 21826
+TomekLink 							          44664				              39725					17899 : 21826
+OneSidedSelection					        44664				              39724 				17898 : 21826
