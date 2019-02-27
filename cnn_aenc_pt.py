@@ -114,5 +114,5 @@ if __name__ == '__main__':
         model.compile(loss='binary_crossentropy', optimizer=adam)
         checkpointer = ModelCheckpoint(filepath="autoenc.h5", verbose=1, monitor='val_loss',save_best_only=True)
         model.fit(train_x, train_x, batch_size=64, epochs=250, shuffle=True, validation_data=(val_x, val_x), callbacks=[checkpointer])
-        #model.save(auto_enc.h5)
+        model.save(auto_enc.h5)
 		
