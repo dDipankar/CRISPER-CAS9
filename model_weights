@@ -1,0 +1,38 @@
+
+1. How to add and remove new layers in keras after loading weights?
+
+#loading weights to second model
+model2=gen_model()
+model2.compile(loss="categorical_crossentropy", optimizer="adam")
+model2.load_weights('model_weights.h5', by_name=True)
+
+model2.layers.pop()
+model2.layers.pop()
+model2.summary()
+
+#editing layers in the second model and saving as third model
+x = MaxPooling2D()(model2.layers[-1].output)
+o = Activation('sigmoid', name='loss')(x)
+model3 = Model(input=in_img, output=[o])
+
+2. Saving/loading whole models (architecture + weights + optimizer state)?
+
+from keras.models import load_model
+
+model.save('my_model.h5')  # creates a HDF5 file 'my_model.h5'
+del model  # deletes the existing model
+
+# returns a compiled model
+# identical to the previous one
+model = load_model('my_model.h5')
+
+# i.e. freeze all convolutional InceptionV3 layers
+for layer in base_model.layers:
+    layer.trainable = False
+    
+# we chose to train the top 2 inception blocks, i.e. we will freeze
+# the first 249 layers and unfreeze the rest:
+for layer in m.layers[:249]:
+   layer.trainable = False
+for layer in m.layers[249:]:
+   layer.trainable = True    
