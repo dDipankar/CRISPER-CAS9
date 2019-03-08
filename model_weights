@@ -36,3 +36,6 @@ for layer in m.layers[:249]:
    layer.trainable = False
 for layer in m.layers[249:]:
    layer.trainable = True    
+   
+   
+Transfer Learning: https://www.kaggle.com/venuraja79/using-transfer-learning-with-keras
