@@ -37,5 +37,11 @@ for layer in m.layers[:249]:
 for layer in m.layers[249:]:
    layer.trainable = True    
    
-   
+# add a global spatial average pooling layer
+x = base_model.output
+x = GlobalAveragePooling2D()(x)
+
+* note 'output'
+
 Transfer Learning: https://www.kaggle.com/venuraja79/using-transfer-learning-with-keras
+https://stackoverflow.com/questions/41668813/how-to-add-and-remove-new-layers-in-keras-after-loading-weights?rq=1
