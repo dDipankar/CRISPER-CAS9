@@ -6,3 +6,6 @@ InstanceHardnessThreshold			    44664				              44409					22583 : 21826
 NearMiss						              44664				              43652					21826 : 21826
 TomekLink 							          44664				              39725					17899 : 21826
 OneSidedSelection					        44664				              39724 				17898 : 21826
+
+
+
