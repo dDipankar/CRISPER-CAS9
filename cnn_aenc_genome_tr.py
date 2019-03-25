@@ -1,3 +1,4 @@
+# load the pre-trained model
 from collections import OrderedDict
 import os
 import sys
