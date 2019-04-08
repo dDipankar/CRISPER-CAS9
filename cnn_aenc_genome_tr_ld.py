@@ -107,7 +107,7 @@ if __name__ == '__main__':
  dec_conv_1 = Conv1D(activation="relu", padding="same", strides=1, filters=20, kernel_size=5, kernel_initializer='glorot_uniform',kernel_regularizer = l2(0.0001))(dec_pool)
  dec = Conv1D(activation="relu", padding="same", strides=1, filters=4, kernel_size=5, kernel_initializer='glorot_uniform',kernel_regularizer = l2(0.0001))(dec_pool)
  model_seq = Model(inputs = SEQ, outputs= dec)
- model_seq.save_weights("auto_encode_wtt.h5")
+ model_seq.load_weights("auto_encode_wtt.h5")
  #model_seq.summary()
  model_seq.layers.pop()
  model_seq.layers.pop()
