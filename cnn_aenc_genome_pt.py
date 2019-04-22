@@ -111,6 +111,7 @@ if __name__ == '__main__':
         checkpointer = ModelCheckpoint(filepath="autoenc_epoch.h5", verbose=1, monitor='val_loss',save_best_only=True)
         history = model.fit(train_x, train_x, batch_size=64, epochs=6, shuffle=True, validation_data=(val_x, val_x), callbacks=[checkpointer])
         model.save('auto_encode.h5')
+	model.save_weights("auto_encode_wtt.h5")
         plt.plot(history.history['loss'])
         plt.plot(history.history['val_loss'])
         plt.title('model loss')
