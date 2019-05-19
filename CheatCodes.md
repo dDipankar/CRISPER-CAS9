@@ -12,3 +12,6 @@ For Example:
 renice 10 -p 21827
 
 
+GPU info:
+nvidia-smi
+
