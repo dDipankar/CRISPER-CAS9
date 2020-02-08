@@ -3,6 +3,8 @@
 For pretraining run cnn_aenc_genome_pt.py which uses autoencoder
 After that to load the pretrained weight run cnn_aenc_genome_tr_ld.py
 
+# Groups:
+
 Group 1 (47124): All sgRNAs (might be the same as before)
 Group 2 (46234): All except manual exclusions (ME, described in our initial submission)
 Group 3 (45503): All except ME and End of Chromosome sgRNAs (as described in initial submission)
@@ -13,3 +15,9 @@ Group 7 (42238): All except ME, EOC, polyT, and lowest 2000
 Group 8 (40337): All except ME, EOC, polyT, and lowest 4000  
 Group 9 (36566): All except ME, EOC, polyT, and lowest 8000 
 Group 10 (29041): All except ME, EOC, polyT, and lowest 1600
+
+# Classification of Guides:
+- Excellent: min cutting score -10.003659369999999 and max cutting score  -5.0002097399999998. Less the cutting score more                  excellent the guide is
+- Moderate: min cutting score -4.999916121 and max cutting score -1.000090874 
+- Poor: min cutting score -0.999961177 and max cutting score 1.999324657
+for binary classification, we have labeled 'Excellent' as 1 ; 'Moderate' and 'Poor' as 0. So cutting score<= -5.00 is positive label threshold>-5.00 is negative label. So threshold is -5.00
