@@ -15,3 +15,5 @@ renice 10 -p 21827
 GPU info:
 nvidia-smi
 
+To find files that contain a specific word in a directory: grep -r 'sequences.txt' .
+
