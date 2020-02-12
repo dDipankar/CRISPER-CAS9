@@ -17,3 +17,5 @@ nvidia-smi
 
 To find files that contain a specific word in a directory: grep -r 'sequences.txt' .
 
+copy : cp sequences_30bp.txt /home/csgrads/dbais001/CRISP-CAS9/yeast_bact/yeast_data/Group3/
+
