@@ -5,4 +5,6 @@ cnn_aenc_po_28_bin.py : python file of final model for binary classification
 
 activity_score_CAE.py: gives activity score of CAE model for binary classifaction using both seq and nu 
 
-seq_nu_wtt.h5: weight file for CAE model for binary classifaction using both seq and nu 
+seq_nu_wtt.h5: weight file for CAE model using both seq and nu using 40 bp context
+
+seq_nu_28bp_wtt.h5 : weight file for CAE model using both seq and nu using 28 bp context
