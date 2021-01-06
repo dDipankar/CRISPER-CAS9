@@ -21,3 +21,16 @@ After that to load the pretrained weight run cnn_aenc_genome_tr_ld.py
 - Moderate: min cutting score -4.999916121 and max cutting score -1.000090874 
 - Poor: min cutting score -0.999961177 and max cutting score 1.999324657
 for binary classification, we have labeled 'Excellent' as 1 ; 'Moderate' and 'Poor' as 0. So cutting score<= -5.00 is positive label threshold>-5.00 is negative label. So threshold is -5.00
+
+# Experimental Result on Cpf1 Data
+
+|  | Spearman R | Pearson R |  
+| --- | --- | --- |
+| `CNN (w/o pretrain)` | 0.582 |  0.592 |
+| --- | --- | --- |
+| `CAE (pre-train + w/o fine-tune)` | 0.527 | 0.537 |
+| --- | --- | --- |
+| `CAE (pre-train + fine-tune)` | 0.655 |  0.664 |
+| --- | --- | --- |
+| `Re-trained DeepCpf1` | 0.614 |  0.628 |
+| --- | --- | --- |
