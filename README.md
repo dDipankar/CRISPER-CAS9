@@ -25,7 +25,7 @@ for binary classification, we have labeled 'Excellent' as 1 ; 'Moderate' and 'Po
 # Experimental Result on Cpf1 Data
 
 |  | Spearman R | Pearson R |  
-| --- | --- | --- |
+
 | `CNN (w/o pretrain)` | 0.582 |  0.592 |
 | --- | --- | --- |
 | `CAE (pre-train + w/o fine-tune)` | 0.527 | 0.537 |
