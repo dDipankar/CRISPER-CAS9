@@ -30,3 +30,11 @@ for binary classification, we have labeled 'Excellent' as 1 ; 'Moderate' and 'Po
 | `CAE (pre-train + w/o fine-tune)` | 0.527 | 0.537 |
 | `CAE (pre-train + fine-tune)` | 0.655 |  0.664 |
 | `Re-trained DeepCpf1` | 0.614 |  0.628 |
+
+# Experimental Result on Cas9 Data
+
+|  | Spearman R | Pearson R |  
+| --- | --- | --- |
+| `CNN (w/o pretrain)` | 0.582 |  0.592 |
+| `CAE (pre-train + w/o fine-tune)` | 0.335 | 0.375 |
+| `CAE (pre-train + fine-tune)` | 0.416 | 0.492  |
