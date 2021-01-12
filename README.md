@@ -38,3 +38,4 @@ for binary classification, we have labeled 'Excellent' as 1 ; 'Moderate' and 'Po
 | `CNN (w/o pretrain)` | 0.413 |  0.491 |
 | `CAE (pre-train + w/o fine-tune)` | 0.335 | 0.375 |
 | `CAE (pre-train + fine-tune)` | 0.416 | 0.492  |
+| `CAE (pre-train + fine-tune + w/o NU)` | 0.262 | 0.312  |
