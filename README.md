@@ -35,6 +35,6 @@ for binary classification, we have labeled 'Excellent' as 1 ; 'Moderate' and 'Po
 
 |  | Spearman R | Pearson R |  
 | --- | --- | --- |
-| `CNN (w/o pretrain)` | 0.582 |  0.592 |
+| `CNN (w/o pretrain)` | 0.350 |  0.408 |
 | `CAE (pre-train + w/o fine-tune)` | 0.335 | 0.375 |
 | `CAE (pre-train + fine-tune)` | 0.416 | 0.492  |
