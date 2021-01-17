@@ -45,3 +45,6 @@ Pool + flatten = 0.626
 Pool + flatten + 1 FC = 0.654
 Pool + flatten + 2 FC = 0.649
 Pool + flatten + 3 FC = 0.649
+
+
+netstat -tnlp | grep :88
