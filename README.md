@@ -39,3 +39,9 @@ for binary classification, we have labeled 'Excellent' as 1 ; 'Moderate' and 'Po
 | `CAE (pre-train + w/o fine-tune)` | 0.335 | 0.375 |
 | `CAE (pre-train + fine-tune)` | 0.416 | 0.492  |
 | `CAE (pre-train + fine-tune + w/o NU)` | 0.262 | 0.312  |
+
+# Ablation analysis on Cpf1 Data
+Pool + flatten = 0.626
+Pool + flatten + 1 FC = 0.654
+Pool + flatten + 2 FC = 0.649
+Pool + flatten + 3 FC = 0.649
