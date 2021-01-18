@@ -41,13 +41,15 @@ for binary classification, we have labeled 'Excellent' as 1 ; 'Moderate' and 'Po
 | `CAE (pre-train + fine-tune + w/o NU)` | 0.262 | 0.312  |
 
 # Ablation analysis on Cpf1 Data
+filename: Seq_cpf1_autoenc_final-Copy1
+
 Pool + flatten = 0.637
 
 Pool + flatten + 1 FC(dropout) = 0.649
 
 Pool + flatten + 2 FC(dropout) = 0.653
 
-Pool + flatten + 3 FC = 0.649
+Pool + flatten + 3 FC = 0.653
 
 
 
