@@ -47,7 +47,7 @@ Pool + flatten = 0.637(Sp), 0.641(Pr)
 
 Pool + flatten + 1 FC(dropout) = 0.649(Sp), 0.658(Pr)
 
-Pool + flatten + 2 FC(dropout) = 0.653
+Pool + flatten + 2 FC(dropout) = 0.653(Sp), 0.660(Pr)
 
 Pool + flatten + 3 FC = 0.653
 
