@@ -51,6 +51,13 @@ Pool + flatten + 2 FC(dropout) = 0.653
 
 Pool + flatten + 3 FC = 0.653
 
+## Not Fine-tuned
+Pool + flatten = 0.517
 
+Pool + flatten + 1 FC(dropout) = 0.527
+
+Pool + flatten + 2 FC(dropout) = 0.523
+
+Pool + flatten + 3 FC = 0.515
 
 netstat -tnlp | grep :88
