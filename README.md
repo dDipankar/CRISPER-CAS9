@@ -42,7 +42,7 @@ for binary classification, we have labeled 'Excellent' as 1 ; 'Moderate' and 'Po
 
 # Ablation analysis on Cpf1 Data
 filename: Seq_cpf1_autoenc_final-Copy1
-
+## Fine-tuned
 Pool + flatten = 0.637
 
 Pool + flatten + 1 FC(dropout) = 0.649
