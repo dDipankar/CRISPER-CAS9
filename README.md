@@ -43,7 +43,7 @@ for binary classification, we have labeled 'Excellent' as 1 ; 'Moderate' and 'Po
 # Ablation analysis on Cpf1 Data
 Pool + flatten = 0.637
 
-Pool + flatten + 1 FC = 0.654
+Pool + flatten + 1 FC(dropout) = 0.649
 
 Pool + flatten + 2 FC = 0.649
 
