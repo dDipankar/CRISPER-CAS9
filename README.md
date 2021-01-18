@@ -52,12 +52,12 @@ Pool + flatten + 2 FC(dropout) = 0.653(Sp), 0.660(Pr)
 Pool + flatten + 3 FC = 0.653
 
 ## Not Fine-tuned
-Pool + flatten = 0.517
+Pool + flatten = 0.521(Sp), 0.532(Pr)
 
-Pool + flatten + 1 FC(dropout) = 0.527
+Pool + flatten + 1 FC(dropout) = 0.527(Sp), 0.533(Pr)
 
-Pool + flatten + 2 FC(dropout) = 0.523
+Pool + flatten + 2 FC(dropout) = 0.505(Sp), 0.517(Pr)
 
-Pool + flatten + 3 FC = 0.515
+Pool + flatten + 3 FC = 0.501(sp), 0.514(pr)
 
 netstat -tnlp | grep :88
