@@ -45,7 +45,7 @@ filename: Seq_cpf1_autoenc_final-Copy1
 ## Fine-tuned
 Pool + flatten = 0.637(Sp), 0.641(Pr)
 
-Pool + flatten + 1 FC(dropout) = 0.649
+Pool + flatten + 1 FC(dropout) = 0.649(Sp), 0.658(Pr)
 
 Pool + flatten + 2 FC(dropout) = 0.653
 
