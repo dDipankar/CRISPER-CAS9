@@ -45,7 +45,7 @@ Pool + flatten = 0.637
 
 Pool + flatten + 1 FC(dropout) = 0.649
 
-Pool + flatten + 2 FC = 0.649
+Pool + flatten + 2 FC(dropout) = 0.653
 
 Pool + flatten + 3 FC = 0.649
 
