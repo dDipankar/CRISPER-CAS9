@@ -61,3 +61,16 @@ Pool + flatten + 2 FC(dropout) = 0.505(Sp), 0.517(Pr)
 Pool + flatten + 3 FC = 0.501(sp), 0.514(pr)
 
 netstat -tnlp | grep :88
+
+# Ablation analysis on Cas9 Data
+filename: cas9_training_28bp
+## Fine-tuned
+Pool + flatten = 0.295(Sp), 0.352(Pr)
+
+Pool + flatten + 1 FC(dropout) = 0.325(Sp), 0.389(Pr)
+
+Pool + flatten + 2 FC(dropout) = 0.314(Sp), 0.373(Pr)
+
+Pool + flatten + 3 FC =  0.302(Sp), 0.366(Pr)
+
+Pool + flatten + 4 FC (mult)=  0.410(Sp), 0.490(Pr)
