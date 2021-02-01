@@ -85,3 +85,9 @@ Pool + flatten + 2 FC(dropout) = 0.295(Sp), 0.334(Pr)
 Pool + flatten + 3 FC =  0.294(Sp), 0.331(Pr)
 
 Pool + flatten + 4 FC (mult)=  0.345(Sp), 0.388(Pr)
+
+# DeepCRISPR
+       
+|  | Spearman R | Pearson R |  
+| --- | --- | --- |
+| `Retrained` | 0.261 |  0.282 |
