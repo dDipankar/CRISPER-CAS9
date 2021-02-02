@@ -98,5 +98,6 @@ Pool + flatten + 4 FC (mult)=  0.345(Sp), 0.388(Pr)
        
 |  | Spearman R | Pearson R |  
 | --- | --- | --- |
+| `Retrained on cpf1 data` | 0.614 |  0.628 |
 | `Retrained on cas9 data` | 0.370 |  0.450 |
 
