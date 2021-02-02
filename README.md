@@ -93,3 +93,10 @@ Pool + flatten + 4 FC (mult)=  0.345(Sp), 0.388(Pr)
 | `Retrained on cas9 data` | 0.261 |  0.282 |
 | `Not Retrained on cas9 data` | 0.200 |  0.211 |
 | `Retrained on cpf1 data` | 0.277 |  0.277 |
+
+# DeepCPf1
+       
+|  | Spearman R | Pearson R |  
+| --- | --- | --- |
+| `Retrained on cas9 data` | 0.370 |  0.450 |
+
