@@ -92,8 +92,9 @@ Pool + flatten + 4 FC (mult)=  0.345(Sp), 0.388(Pr)
 | --- | --- | --- |
 | `CAE on cpf1 data` | 0.655 |  0.664 |
 | `CAE on cas9 data` | 0.41 |  0.490 |
-| `Retrained on cas9 data` | 0.261 |  0.282 |
 | `Tested on cas9 data` | 0.200 |  0.211 |
+| `Retrained on cas9 data` | 0.261 |  0.282 |
+| `Tested on cpf1 data` | 0.047 |  0.040 |
 | `Retrained on cpf1 data` | 0.277 |  0.277 |
 
 # DeepCPf1
