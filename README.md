@@ -67,11 +67,11 @@ filename: cas9_training_28bp
 ## Fine-tuned
 Pool + flatten = 0.295(Sp), 0.352(Pr)
 
-Pool + flatten + 1 FC(dropout) = 0.319(Sp), 0.383(Pr)
+Pool + flatten + 1 FC(dropout) = 0.364(Sp), 0.424(Pr)
 
-Pool + flatten + 2 FC(dropout) = 0.322(Sp), 0.387(Pr)
+Pool + flatten + 2 FC(dropout) = 0.357(Sp), 0.414(Pr)
 
-Pool + flatten + 3 FC =  0.302(Sp), 0.366(Pr)
+Pool + flatten + 3 FC =  0.357(Sp), 0.414(Pr)
 
 Pool + flatten + 4 FC (mult)=  0.410(Sp), 0.490(Pr)
 
