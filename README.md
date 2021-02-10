@@ -76,7 +76,7 @@ Pool + flatten + 3 FC =  0.357(Sp), 0.414(Pr)
 Pool + flatten + 4 FC (mult)=  0.428(Sp), 0.503(Pr)
 
 ## Not Fine-tuned
-Pool + flatten = 0.256(Sp), 0.280(Pr)
+Pool + flatten = 0.316(Sp), 0.353(Pr)
 
 Pool + flatten + 1 FC(dropout) = 0.276(Sp), 0.306(Pr)
 
