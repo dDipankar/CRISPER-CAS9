@@ -65,7 +65,7 @@ netstat -tnlp | grep :88
 # Ablation analysis on Cas9 Data
 filename: cas9_training_28bp
 ## Fine-tuned
-Pool + flatten = 0.295(Sp), 0.352(Pr)
+Pool + flatten = 0.347(Sp), 0.409(Pr)
 
 Pool + flatten + 1 FC(dropout) = 0.364(Sp), 0.424(Pr)
 
@@ -78,11 +78,11 @@ Pool + flatten + 4 FC (mult)=  0.428(Sp), 0.503(Pr)
 ## Not Fine-tuned
 Pool + flatten = 0.316(Sp), 0.353(Pr)
 
-Pool + flatten + 1 FC(dropout) = 0.276(Sp), 0.306(Pr)
+Pool + flatten + 1 FC(dropout) = 0.273(Sp), 0.310(Pr)
 
-Pool + flatten + 2 FC(dropout) = 0.295(Sp), 0.334(Pr)
+Pool + flatten + 2 FC(dropout) = 0.261(Sp), 0.291(Pr)
 
-Pool + flatten + 3 FC =  0.294(Sp), 0.331(Pr)
+Pool + flatten + 3 FC =  0.269(Sp), 0.305(Pr)
 
 Pool + flatten + 4 FC (mult)=  0.345(Sp), 0.388(Pr)
 
