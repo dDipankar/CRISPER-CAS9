@@ -108,4 +108,6 @@ Pool + flatten + 4 FC (mult)=  0.345(Sp), 0.388(Pr)
 | `Tested on cas9 data` | 0.200 |  0.218 |
 | `Retrained on cas9 data` | 0.370 |  0.450 |
 
+* Model for cpf1: Cpf1_32nt_seq_wtt.h5
 * Note: training file for cas9: cas9_28bp_final_training.ipynb, for cpf1: Seq_cpf1_autoenc_final_training.ipynb
+* Note: loading model file for cpf1: Seq_cpf1_autoenc_load_final.ipynb
