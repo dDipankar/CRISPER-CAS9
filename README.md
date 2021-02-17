@@ -112,3 +112,4 @@ Pool + flatten + 4 FC (mult)=  0.345(Sp), 0.388(Pr)
 * Note: training file for cas9: cas9_28bp_final_training.ipynb, for cpf1: Seq_cpf1_autoenc_final_training.ipynb
 * Note: loading model file for cpf1: Seq_cpf1_autoenc_load_final.ipynb
 * flask: https://github.com/krishnaik06/Deployment-flask
+* Grep command: grep -i -r 'Cpf1_CS_wins_nu_new.csv' *
