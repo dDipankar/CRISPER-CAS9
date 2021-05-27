@@ -110,7 +110,8 @@ Pool + flatten + 4 FC (mult)=  0.345(Sp), 0.388(Pr)
 | `Retrained on cas9 data` | 0.370 |  0.450 |
 
 * Model for cpf1: Cpf1_32nt_seq_wtt.h5
-* Note: training file for cas9: cas9_training_28nt.ipynb(28 bp guide),cas9_training_40bp (40 bp), cas9_loading_28nt.ipynb(for loading)
+* Note: training file for cas9: cas9_training_28nt.ipynb(28 bp guide),cas9_training_40bp (40 bp), cas9_training_seq_28nt.ipynb(28 bp seq)
+cas9_loading_28nt.ipynb(for loading)
 * for cpf1: Seq_cpf1_autoenc_final_training.ipynb
 * Note: loading model file for cpf1: Seq_cpf1_autoenc_load_final.ipynb
 * flask: https://github.com/krishnaik06/Deployment-flask
